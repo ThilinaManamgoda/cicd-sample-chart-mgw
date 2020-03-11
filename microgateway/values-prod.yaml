@@ -52,11 +52,3 @@ wso2:
           memory: "1Gi"
           # The maximum amount of CPU that should be allocated for a Pod
           cpu: "2000m"
-  microgatewayConfigurations:
-    jwtTokenConfig_certificateAlias: wso2carbon2
-    jwtTokenConfig_issuer: https://km.mbie.wso2support.com:443/oauth2/token
-    keyManager_serverUrl: https://km.mbie.wso2support.com
-    analytics_enable: true
-    analytics_uploadingEndpoint: https://analytics-worker.mbie.wso2support.com:9444/analytics/v1.0/usage/upload-file
-    analytics_uploadingTimeSpanInMillis: 10000
-    analytics_rotatingPeriod: 10000
